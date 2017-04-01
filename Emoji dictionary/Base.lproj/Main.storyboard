@@ -10,6 +10,44 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="gKK-4K-1EQ">
+            <objects>
+                <viewController id="8Fq-mt-kEH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d8E-Cy-V8T"/>
+                        <viewControllerLayoutGuide type="bottom" id="zyX-oP-V3Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3qC-hd-sCs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zga-M3-dpj">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dit is een kerk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYM-Qg-n8K">
+                                <rect key="frame" x="133.5" y="429" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zga-M3-dpj" firstAttribute="centerX" secondItem="3qC-hd-sCs" secondAttribute="centerX" id="CpS-gm-mh4"/>
+                            <constraint firstItem="NYM-Qg-n8K" firstAttribute="centerX" secondItem="3qC-hd-sCs" secondAttribute="centerX" id="Jwj-0q-stx"/>
+                            <constraint firstItem="NYM-Qg-n8K" firstAttribute="top" secondItem="zga-M3-dpj" secondAttribute="bottom" constant="130" id="t5Q-Kd-Eyh"/>
+                            <constraint firstItem="zga-M3-dpj" firstAttribute="top" secondItem="d8E-Cy-V8T" secondAttribute="bottom" constant="40" id="vyr-Wj-RXP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Geq-pd-as8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018" y="130"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_dictionary" customModuleProvider="target" sceneMemberID="viewController">
